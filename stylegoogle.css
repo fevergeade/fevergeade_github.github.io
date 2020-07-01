@@ -1,7 +1,7 @@
 body
 {
   background-color: rgb(255, 255, 255);
-  border: 2px solid red;
+  /* border: 2px solid red; */
   /* display: flex;
   justify-content: stretch;
   flex-direction: column; */
@@ -43,7 +43,7 @@ nav
 }
 .icone_1
 {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 20px;
   height: 20px;
 }
@@ -79,7 +79,7 @@ nav
   justify-content: center;
   flex-wrap: nowrap;
   flex-direction: row;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .bouton
 {
@@ -101,7 +101,7 @@ nav
   grid-row: 3;
   /* block-size: 40px; */
   height: 40px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -124,7 +124,7 @@ p
   align-items: center;
   flex-wrap: nowrap;
   flex-direction: row-reverse;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   color: rgb(83, 82, 82);
   margin-left: 20px;
   margin-right: 20px;
