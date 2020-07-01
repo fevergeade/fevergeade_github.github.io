@@ -1,0 +1,142 @@
+body
+{
+  background-color: rgb(255, 255, 255);
+  border: 2px solid red;
+  /* display: flex;
+  justify-content: stretch;
+  flex-direction: column; */
+  /* display: grid; */
+  /* grid-template-rows: 40px 1fr 40px 40px; */
+  font-family: 'Roboto', 'Arial', sans-serif;
+  color: rgb(83, 82, 82);
+}
+nav
+{
+  /* grid-row: 1; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* block-size: 40px; */
+  height: 40px;
+  /* border: 2px solid red; */
+}
+
+#contenu
+{
+  /* grid-row: 2; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  /* margin-left: 400px; */
+  /* block-size: 1fr; */
+  height: 80%;
+}
+
+#image
+{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  /* border: 2px solid red; */
+  margin-bottom: 20px;
+}
+.icone_1
+{
+  border: 2px solid red;
+  width: 20px;
+  height: 20px;
+}
+#zone_recherche
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+#GET-name
+{
+  width: 360px;
+  height: 20px;
+  border: 0px none rgb(206, 206, 206);
+}
+
+#box_recherche
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  flex-wrap: nowrap;
+  width: 400px;
+  border: 2px solid rgb(206, 206, 206);
+  border-radius: 10px 5px 10px 5px;
+  box-shadow: 0px 0px 0px black;
+}
+#box_action
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  border: 2px solid red;
+}
+.bouton
+{
+  margin-right: 40px;
+  height: 40px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px 5px 10px 5px;
+}
+.bouton:hover
+{
+  margin-right: 40px;
+  height: 40px;
+  border: 2px solid rgb(206, 206, 206);
+  border-radius: 10px 5px 10px 5px;
+}
+
+#zone_base
+{
+  grid-row: 3;
+  /* block-size: 40px; */
+  height: 40px;
+  border: 2px solid red;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: rgb(83, 82, 82);
+}
+
+p
+{
+  margin-left: 20px;
+}
+#bas_page
+{
+  grid-row: 4;
+  /* min-block-size:  40px; */
+  /* max-block-size: 80px; */
+  min-height: 40px;
+  max-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  border: 2px solid red;
+  color: rgb(83, 82, 82);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+a:hover
+{
+  text-decoration: underline;
+}
+
+a
+{
+  margin-right: 10px;
+  text-decoration: none;
+  color: rgb(83, 82, 82);
+}
